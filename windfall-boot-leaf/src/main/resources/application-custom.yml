@@ -1,0 +1,7 @@
+# 自定义的一些属性
+custom:
+  hello: world
+  list:
+    - a
+    - b
+    - c

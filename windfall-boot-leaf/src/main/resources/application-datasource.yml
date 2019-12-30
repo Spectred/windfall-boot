@@ -1,0 +1,6 @@
+# 数据源配置
+spring:
+  datasource:
+    url: jdbc:mysq://localhost:3306/spectred
+    username: root
+    password: mysql

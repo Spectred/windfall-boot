@@ -1,0 +1,33 @@
+### actuator
+GET http://localhost:8081/actuator
+Accept: application/json
+
+### actuator/beans
+GET http://localhost:8081/actuator/beans
+Accept: application/json
+
+### actuator/configprops
+GET http://localhost:8081/actuator/configprops
+Accept: application/json
+
+### 查看配置属性
+GET http://localhost:8081/actuator/env
+Accept: application/json
+
+### 端点到控制器的映射
+GET http://localhost:8081/actuator/mappings
+Accept: application/json
+
+### 运行时数据
+GET http://localhost:8081/actuator/metrics/
+Accept: application/json
+
+###
+GET http://localhost:8081/actuator/info
+Accept: application/json
+
+### 关闭程序
+POST http://localhost:8081/actuator/shutdown
+Accept: application/json
+
+###

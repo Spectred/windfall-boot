@@ -15,7 +15,7 @@ import java.util.function.Predicate;
 
 public class DemoTest {
 
-    private static final Map<String, Predicate> map = new HashMap<>();
+    private static final Map<String, Predicate<Integer>> map = new HashMap<>();
 
     static {
 
@@ -33,7 +33,7 @@ public class DemoTest {
     public void test() {
         map.forEach((k, v) -> {
             if (v.test(99)) {
-                TestCase.assertEquals("A", k);
+                TestCase.assertEquals("B    ", k);
             }
         });
     }

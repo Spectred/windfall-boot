@@ -1,0 +1,8 @@
+server:
+  port: 8081
+spring:
+  main:
+    banner-mode: off    # 设置banner模式
+  profiles:
+    include: datasource,custom,endpoints
+
