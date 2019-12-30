@@ -1,0 +1,4 @@
+spring:
+  main:
+    lazy-initialization: false # 是否延迟初始化bean
+    banner-mode: console # banner输出模式
