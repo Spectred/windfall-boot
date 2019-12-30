@@ -54,10 +54,4 @@ public class SimpleRedisController {
         return operations.get(key, hashKey);
     }
 
-    @GetMapping("/baidu")
-    public String baidu() {
-        return "forward: https://www.baidu.com";
-    }
-
-
 }
