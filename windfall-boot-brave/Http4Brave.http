@@ -1,0 +1,8 @@
+GET http://localhost:8080/brave/demo/random
+Accept: application/json
+
+###
+GET http://localhost:8080/brave/demo/custom
+Accept: application/json
+
+###
