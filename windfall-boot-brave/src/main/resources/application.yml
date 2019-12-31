@@ -8,3 +8,15 @@ spring:
     name: brave
   profiles:
     include: custom
+    active: uat  # prod,dev,test,uat的端口配置 都不同
+
+---
+spring:
+  profiles: prod
+server:
+  port: 8081
+---
+spring:
+  profiles: dev
+server:
+  port: 8082
