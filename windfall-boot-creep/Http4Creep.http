@@ -1,0 +1,35 @@
+GET http://localhost:8080/creep/demo/getUser
+Accept: application/json
+
+###
+
+GET http://localhost:8080/creep/demo/getUser2
+Accept: application/json
+
+###
+
+GET http://localhost:8080/creep/demo/getUserList
+Accept: application/json
+
+###
+
+POST http://localhost:8080/creep/demo/postUser
+Content-Type: application/json
+
+{
+  "name": "java",
+  "age": 10,
+  "gender": false
+}
+
+###
+
+GET http://localhost:8080/creep/demo/testException
+Accept: application/json
+
+###
+
+GET http://localhost:8080/creep/demo/testTempException
+Accept: application/json
+
+###

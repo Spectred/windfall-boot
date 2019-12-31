@@ -1,0 +1,9 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /creep
+spring:
+  application:
+    name: creep
+  mvc:
+    message-codes-resolver-format: prefix_error_code #具有产生错误代码从绑定错误的渲染错误消息的策略
