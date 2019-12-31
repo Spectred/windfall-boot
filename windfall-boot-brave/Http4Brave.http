@@ -6,3 +6,7 @@ GET http://localhost:8080/brave/demo/custom
 Accept: application/json
 
 ###
+GET http://localhost:8080/brave/demo/some
+Accept: application/json
+
+###

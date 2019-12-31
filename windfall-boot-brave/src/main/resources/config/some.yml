@@ -1,0 +1,8 @@
+me:
+  name: Lisa
+  age: 20
+  some:
+    any: 33423
+  urls:
+    - www.qq.com
+    - www.baidu.com

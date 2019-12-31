@@ -1,11 +1,10 @@
 package com.spectred.brave;
 
-import com.spectred.brave.config.RandomProperties;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.context.properties.ConfigurationPropertiesScan;
 
-import javax.annotation.Resource;
-
+@ConfigurationPropertiesScan({"com.spectred.brave.config"})
 @SpringBootApplication
 public class BraveApplication {
 

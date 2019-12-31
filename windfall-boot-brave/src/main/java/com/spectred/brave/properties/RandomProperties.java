@@ -1,4 +1,4 @@
-package com.spectred.brave.config;
+package com.spectred.brave.properties;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
