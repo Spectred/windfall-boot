@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
 import javax.annotation.Resource;
@@ -20,5 +21,10 @@ public class UserInfoController {
     @GetMapping("/get/{id}")
     public Mono<UserInfo> getUserById(@PathVariable Long id) {
         return userInfoHandler.getUserById(id);
+    }
+
+    @GetMapping("/getUsers")
+    public Flux<UserInfo> getUsers() {
+        return userInfoHandler.getUsers();
     }
 }
