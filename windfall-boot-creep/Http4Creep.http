@@ -33,3 +33,8 @@ GET http://localhost:8080/creep/demo/testTempException
 Accept: application/json
 
 ###
+
+GET http://localhost:8080/creep/demo/haha
+Accept: application/json
+
+###

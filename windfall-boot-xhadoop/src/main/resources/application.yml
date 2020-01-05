@@ -1,0 +1,7 @@
+server:
+  port: 19000
+  servlet:
+    context-path: /hadoop
+spring:
+  profiles:
+    include: hadoop
